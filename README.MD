@@ -31,3 +31,4 @@ param_samples, out=adaptive_mh(num_trials, chi2, test_fn,x,y,ye,
 
 Here, `num_trials`, is the number of runs to convergence, `chi2_lim` is our what we consider to be a sucessful model, namely a model such that: chi2(model)<min(chi2 of all models)+chi2_lim.  Additionally, the user can specify a guess best fit model parameters.
 
+For both functions the output is a tuple of `param_samples` and `out` where `param_samples` is an array of dicts of the input params for the corresponding function output of `out`
