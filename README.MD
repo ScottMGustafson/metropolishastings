@@ -1,11 +1,11 @@
-#My Little Implementation of Metropolis Hastings
+# My Implementation of Metropolis Hastings
 
 For info on the algorithm see the [Wikipedia](https://en.wikipedia.org/wiki/Metropolis%E2%80%93Hastings_algorithm)
 
 I wrote this little bit of code as a side-project.  Currently, it is written to 
 minimize a function only, typically chi-square to fit a model to data.
 
-##Usage
+## Usage
 
 To run the vanilla metropolis hastings to minimize chi square (the function is 
 surprisingly called `chi2`) for some function called `test_fn` with three 
